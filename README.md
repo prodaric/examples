@@ -5,6 +5,25 @@
 - **Framework:** Dashboard, Todo list, Reportes (BIRT), Formularios (JSON Schema), CRUD, Gráficos (ECharts), Docking, Rete.js Modelo, JSON Schema (ajv), Acerca.
 - **Web Components:** Shoelace (sl-*), FAST (fast-*), Vaadin (vaadin-*).
 
+## Instalación (npm / GitHub Packages)
+
+Publicado en GitHub Packages. Para instalarlo:
+
+1. Crea o edita `~/.npmrc` y añade (sustituye `TU_TOKEN` por un token con `read:packages`):
+
+   ```
+   //npm.pkg.github.com/:_authToken=TU_TOKEN
+   @prodaric:registry=https://npm.pkg.github.com/
+   ```
+
+2. Instala en tu proyecto:
+
+   ```bash
+   npm install @prodaric/examples
+   ```
+
+La publicación se hace automáticamente al crear un **release** en este repo (workflow *Publish to GitHub Packages*).
+
 ## Cómo ver los ejemplos
 
 1. Arranca el IDE: desde la raíz del monorepo, `npm run ide` (o `npm run start` para solo navegador).

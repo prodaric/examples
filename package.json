@@ -2,6 +2,17 @@
   "name": "@prodaric/examples",
   "version": "0.0.1",
   "description": "Prodaric Framework — todos los ejemplos (Dashboard, Reportes, Formularios, CRUD, Gráficos, Docking, Rete.js, JSON Schema, Shoelace, FAST, Vaadin)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prodaric/examples.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "files": [
+    "lib",
+    "README.md"
+  ],
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "theiaExtensions": [
